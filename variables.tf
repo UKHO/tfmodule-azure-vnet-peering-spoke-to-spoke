@@ -1,25 +1,25 @@
-variable "hubsubscription" {
+variable "subscription_one_id" {
   default = ""
 }
-variable "spokesubscription" {
+variable "subscription_two_id" {
   default = ""
 }
-variable "hubrg" {
+variable "subscription_one_rg" {
   default = ""
 }
-variable "spokerg" {
+variable "subscription_two_rg" {
   default = ""
 }
-variable "hubvnet" {
+variable "subscription_one_vnet" {
   default = ""
 }
-variable "spokevnet" {
+variable "subscription_two_vnet" {
   default = ""
 }
-variable "peer1to2" {
+variable "peer_one_to_two" {
   default = ""
 }
-variable "peer2to1" {
+variable "peer_two_to_one" {
   default = ""
 }
 
