@@ -1,15 +1,9 @@
 provider "azurerm" {
-  version = "=2.20.0"
-  features {}
   alias = "one"
-  subscription_id = var.subscription_one_id
 }
 
 provider "azurerm" {
-  version = "=2.20.0"
-  features {}
   alias = "two"
-  subscription_id = var.subscription_two_id
 }
 
 data "azurerm_resource_group" "one" {

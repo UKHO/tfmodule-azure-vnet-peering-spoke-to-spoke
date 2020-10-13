@@ -1,9 +1,3 @@
-variable "subscription_one_id" {
-  default = ""
-}
-variable "subscription_two_id" {
-  default = ""
-}
 variable "subscription_one_rg" {
   default = ""
 }
