@@ -1,11 +1,13 @@
 provider "azurerm" {
-  version = "~> 1.41"
+  version = "=2.20.0"
+  features {}
   alias = "one"
   subscription_id = var.subscription_one_id
 }
 
 provider "azurerm" {
-  version = "~> 1.41"
+  version = "=2.20.0"
+  features {}
   alias = "two"
   subscription_id = var.subscription_two_id
 }
